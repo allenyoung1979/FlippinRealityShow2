@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<title>Flippin Reality Show</title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/apply.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<link href="assets/css/form.css" rel="stylesheet">
+
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/pixmodal.css">
+
+	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2b57ffe51c8658f8f9a2f0018/abdce775719510baebea9ae83.js");</script>
+
+	<!-- Facebook Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '500698730717184');
+	fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=500698730717184&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+  
+</head>
+
+<body>
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<div class="widget widget_search">
+			<form method="get" class="searchform form-inline" action="/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">
+					<span class="sr-only">Search</span>
+					<i class="fa fa-search highlight"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+	<div id="canvas">
+		<div id="box_wrapper">
+			<!-- template sections -->
+			<header class="page_header transparent_header columns_padding_0 table_section table_section_md toggle_menu_right">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-3">
+							<a href="./" class="logo">
+								<!-- <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"> -->
+									<path class="logo-svg" d="M85.938,42.272A28.53,28.53,0,0,0,80,60c0,14.752,11.876,30,30.186,30S140,74.565,140,60.122,128.99,30,110.309,30C97.072,30,94.1,35.949,94.1,38.8s2.845,7.066,9.4,7.066h8.041c7.794,0,14.1,5.579,14.1,14.256S118.6,74.131,111.3,74.131h-9.031a4.223,4.223,0,0,1-4.454-4.587c0-3.1,2.722-3.967,4.7-3.967h8.413c2.165,0,6.185-1.3,6.185-5.579s-3.525-5.578-5.814-5.578h-8.536c-2.722,0-8.784-1.178-12.248-4.463A17.864,17.864,0,0,1,85.938,42.272Z"
+													transform="translate(-80 -30)" />
+								</svg>
+								<span class="logo_text"></span>
+							</a>
+							<span class="toggle_menu" style="color: black">
+								<span></span>
+							</span>
+						</div>
+						<div class="col-md-6">
+							<div class="toggle_menu_wrap collapsed" style="color: black">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper" style="color: black">
+									<ul class="mainmenu nav sf-menu" style="color: black">
+										<li class="active">
+											<a href="/">Home</a>
+										</li>
+										<li class="active">
+											<a href="/events4.html">Register</a>
+										</li>
+										<li class="active">
+											<a href="/about.html">About</a>
+										</li>
+										<li class="active">
+											<a href="/contact3.html">Contact Us</a>
+										</li>
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<div class="toggle_menu_button">
+									<span class="menu-open">
+										<span>Menu</span>
+										<i class="fa fa-bars" aria-hidden="true"></i>
+									</span>
+									<span class="menu-close">
+										<i class="fa fa-times" aria-hidden="true"></i>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 text-right">
+							<span class="hidden-xs hidden-sm">
+								<a href="#" class="social-icon border-icon rounded-icon color-icon soc-facebook"></a>
+								<a href="#" class="social-icon border-icon rounded-icon color-icon soc-twitter"></a>
+								<a href="#" class="social-icon border-icon rounded-icon color-icon soc-google"></a>
+								<a href="#" class="social-icon border-icon rounded-icon color-icon soc-youtube"></a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="intro_section page_mainslider" id="firstSection">
+				<div class="flexslider text-nav">
+					<ul class="slides">
+						<li class="cs">
+							<img src="images/flippinPic.jpg" class="firstImgSliders">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="cs">
+							<img src="/images/sphinx2.jpg" class="firstImgSliders">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li class="cs">
+							<img src="/images/butterfly2.jpg" class="firstImgSliders"> 
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<!-- <p class="big">Recreating</p> -->
+												<!-- <p>Personal Destiny</p> -->
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+			</section>
+
+			<section class="ls page_highlights columns_margin_bottom_30 columns_margin_top_5 section_padding_top_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-md-offset-0 col-md-4">
+							<article class="vertical-item content-padding with_padding with_shadow text-center highlight-item ls">
+								<div class="item-media">
+										<iframe width="300" height="275" src="https://www.youtube.com/embed/xLVGQJkmTmk?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										<!-- <img src="images/register1.jpeg" alt=""> -->
+									<!-- <img src="/images/tickets.jpg" alt=""> -->
+								</div>
+								<div class="item-content">
+									<h3 class="entry-title2">
+										<a href="#">Register for our Next
+											<br>
+											<strong class="weight-black">Event</strong>
+										</a>
+									</h3>
+									<p>
+									 Get tickets to our next training in Phoenix AZ.
+									</p>
+									<a href="/events.html" class="theme_button inverse topmargin_10">Sign Up</a>
+								</div>
+							</article>
+						</div>
+						<div class="col-sm-6 col-md-offset-0 col-md-4">
+							<article class="vertical-item content-padding with_padding with_shadow text-center highlight-item ls hovered default-hovered">
+								<div class="item-media">
+									<img src="/twoBooks12.jpg" style="height: 250px">
+								</div>
+								<div class="item-content">
+									<h3 class="entry-title2">
+										<a href="#">Get Your Informational
+											<br>
+											<strong class="weight-black">Downloads</strong>
+										</a>
+									</h3>
+									<p>
+										Download "Eye Popin" Or Flippin Reality Show
+									</p>
+									<a href="#"  data-toggle="pixmodal" data-target="#pixModalPrimary"  class="theme_button inverse topmargin_10">Free</a>
+								</div>
+							</article>
+						</div>
+						<div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
+							<article class="vertical-item content-padding with_padding with_shadow text-center highlight-item ls">
+								<div class="item-media">
+									<iframe width="300" height="250" src="https://www.youtube.com/embed/oadU3Bs8mvg?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<div class="item-content">
+									<h3 class="entry-title2">
+										<a href="#">Like What You See?
+											<br>
+											<strong class="weight-black">Want More?</strong>
+										</a>
+									</h3>
+									<p>
+										Check out my latest Videos on Youtube
+									</p>
+									<a href="https://www.youtube.com/channel/UC98sbHkAv08PMX3f6Tnta_g" class="theme_button inverse topmargin_10">More Videos</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="modal pixmodal pixmodal-primary" id="pixModalPrimary" data-animations="slideInRight" tabindex="-1" role="dialog" aria-labelledby="pixModalPrimaryLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+				  <div class="modal-content" style="background-color: transparent;">
+					<div class="smart-wrap">
+                        <div class="smart-forms smart-container wrap-3" style="border: 2px solid white; box-shadow: 10px 10px 10px #fff" >
+							<!-- <h4 class="text-center" style="color: white;">Enter Your e-mail for your FREE E-Book!!!</h4> -->
+                            <div class="form-header header-primary" >
+                                <h4 class="text-center">Enter your e-mail for a FREE E-Book!!</h4>
+                          </div>
+                            
+                            <form method="POST" action="#" id="contact">
+                         
+                                <div class="form-body">
+                                
+                                    <div class="section">
+                                        <label for="names" class="field-label">Your Name</label>
+                                        <label class="field prepend-icon">
+                                            <input type="text" name="names" id="names" class="gui-input" placeholder="Enter name...">
+                                            <span class="field-icon"><i class="fa fa-user"></i></span>  
+                                        </label>
+                                    </div><!-- end section -->
+                                    
+                                    <div class="section">
+                                        <label for="email" class="field-label">Your Email</label>
+                                        <label class="field prepend-icon">
+                                            <input type="email" name="email" id="email" class="gui-input" placeholder="Example@domain.com">
+                                            <span class="field-icon"><i class="fa fa-envelope"></i></span>  
+                                        </label>
+                                    </div><!-- end section -->
+                                    
+                                    <div class="section">
+                                        <label for="telephone" class="field-label">Telephone / * optional</label>
+                                        <label class="field prepend-icon">
+                                            <input type="tel" name="telephone" id="telephone" class="gui-input" placeholder="Enter telephone or mobile...">
+                                            <span class="field-icon"><i class="fa fa-phone-square"></i></span>  
+                                        </label>
+                                    </div><!-- end section -->
+                                    
+                                    <label for="states" class="field select">
+                                        <select id="states" name="states">
+                                            <option value="">Choose a State...</option>
+                                            <option value="AL">Alabama</option>
+                                            <option value="AK">Alaska</option>
+                                            <option value="AZ">Arizona</option>
+                                            <option value="AR">Arkansas</option>
+                                            <option value="CA">California</option>
+                                            <option value="CO">Colorado</option>
+                                            <option value="CT">Connecticut</option>
+                                            <option value="DE">Delaware</option>
+                                            <option value="DC">District Of Columbia</option>
+                                            <option value="FL">Florida</option>
+                                            <option value="GA">Georgia</option>
+                                            <option value="HI">Hawaii</option>
+                                            <option value="ID">Idaho</option>
+                                            <option value="IL">Illinois</option>
+                                            <option value="IN">Indiana</option>
+                                            <option value="IA">Iowa</option>
+                                            <option value="KS">Kansas</option>
+                                            <option value="KY">Kentucky</option>
+                                            <option value="LA">Louisiana</option>
+                                            <option value="ME">Maine</option>
+                                            <option value="MD">Maryland</option>
+                                            <option value="MA">Massachusetts</option>
+                                            <option value="MI">Michigan</option>
+                                            <option value="MN">Minnesota</option>
+                                            <option value="MS">Mississippi</option>
+                                            <option value="MO">Missouri</option>
+                                            <option value="MT">Montana</option>
+                                            <option value="NE">Nebraska</option>
+                                            <option value="NV">Nevada</option>
+                                            <option value="NH">New Hampshire</option>
+                                            <option value="NJ">New Jersey</option>
+                                            <option value="NM">New Mexico</option>
+                                            <option value="NY">New York</option>
+                                            <option value="NC">North Carolina</option>
+                                            <option value="ND">North Dakota</option>
+                                            <option value="OH">Ohio</option>
+                                            <option value="OK">Oklahoma</option>
+                                            <option value="OR">Oregon</option>
+                                            <option value="PA">Pennsylvania</option>
+                                            <option value="RI">Rhode Island</option>
+                                            <option value="SC">South Carolina</option>
+                                            <option value="SD">South Dakota</option>
+                                            <option value="TN">Tennessee</option>
+                                            <option value="TX">Texas</option>
+                                            <option value="UT">Utah</option>
+                                            <option value="VT">Vermont</option>
+                                            <option value="VA">Virginia</option>
+                                            <option value="WA">Washington</option>
+                                            <option value="WV">West Virginia</option>
+                                            <option value="WI">Wisconsin</option>
+                                            <option value="WY">Wyoming</option>
+                                        </select>
+                                        <i class="arrow double"></i>
+                                    </label>  
+                                    
+                                    <div class="section" style="margin-top: 20px;">
+                                        <label class="switch switch-round">
+                                            <input type="checkbox" name="newsletter" id="newsletter" checked>
+                                            <span class="switch-label" data-on="YES" data-off="NO"></span>
+                                            <span> Are you interested in flipping Houses?</span>
+                                        </label>
+                                    </div><!-- end section -->                                                                                
+                                    
+                                </div><!-- end .form-body section -->
+								
+                                <div class="modal-footer">
+										<button type="button" class="btn btn-light" data-toggle="pixmodal" data-target="#pixModalDefault">
+											Submit
+										 </button>
+                                    <!-- <input type="submit" data-toggle="pixmodal" data-target="#pixModalXlarge" class="btn btn-lg mt-3" style="background-color: blue; color: white; margin-right: 30%; width: 100px" value="Submit" id="submit"> -->
+                                    <!-- <a href="#" data-toggle="pixmodal" data-target="#pixModalXlarge" type="button" class="btn btn-theme-sm btn-theme btn-theme-primary" style="margin-right: 45%;" id="submit_btn_rf">Submit</a> -->
+								    <!-- <button >Submit</button> -->
+									<button type="button" class="btn btn-theme-sm btn-theme" data-dismiss="modal">Close</button>
+                                    </div>
+                            </form>
+                            
+                        </div><!-- end .smart-forms section -->
+                    </div><!-- end .smart-wrap section -->
+    
+					
+				  </div>
+				</div>
+			  </div>
+<!-- Modal Default -->
+<div class="modal pixmodal fade" id="pixModalDefault" tabindex="-1" role="dialog" aria-labelledby="pixModalDefaultLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="pixModalDefaultLabel">Modal title</h5>
+		  <button type="button" class="close close--minimal" data-dismiss="pixmodal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  <h6>
+			First Paragraph
+		  </h6>
+  
+		  <p>
+			Oat cake ice cream candy chocolate cake chocolate cake cotton candy dragée apple pie. Brownie carrot cake candy canes bonbon fruitcake topping halvah. Cake sweet roll cake cheesecake cookie chocolate cake liquorice. Apple pie sugar plum powder donut soufflé.
+		  </p>
+  
+		  <hr />
+  
+		  <h6>
+			Second Paragraph
+		  </h6>
+  
+		  <p>
+			Cupcake sugar plum dessert tart powder chocolate fruitcake jelly. Tootsie roll bonbon toffee danish. Biscuit sweet cake gummies danish. Tootsie roll cotton candy tiramisu lollipop candy cookie biscuit pie.
+		  </p>
+		</div>
+		<div class="modal-footer justify-content-center">
+		  <button type="button" class="btn btn-secondary" data-dismiss="pixmodal">Close</button>
+		</div>
+	  </div>
+	</div>
+</div>
+			<section class="ls columns_padding_bottom section_padding_top_50 table_section table_section_md">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3 class="bottommargin_40">
+								<strong class="highlight weight-black fontsize_76">HI</strong> we're Paul and Andy</h3>
+							<p>
+								One is a  real estate investor who's being doing it for 7 years; the other, for 7 weeks. Guess whose who?
+								Trick question. It really is the older guy whose been doing it longer.
+								Hey look life is too short not to have some fun and you're going to see us having a whole lot of fun while we're making things happen, changing lives, and building our financial independence.
+								If you want to know more about us visit the about page, otherwise let's get down to business. 
+								Check out our site, get a free download, sign up to join us at our next event, and go watch some fun and informative videos.
+								Be True, Be You, and You Know What To Do.
+								We'll see you soon.
+							
+							</p>
+							<a href="/about.html" class="theme_button inverse topmargin_30">About Us</a>
+
+						</div>
+						<div class="col-md-6 text-center bottommargin_0">
+							<img src="images/paul@andy.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls section_padding_top_150 section_padding_bottom_120 columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-md-3">
+							<div class="teaser text-center">
+								<a class="teaser_icon size_small big border_icon round" href="#">
+									<i class="fa fa-smile-o highlight"></i>
+								</a>
+								<h4 class="text-uppercase">
+									<a href="#">Being
+										<br>
+										<strong class="weight-black">Happy</strong>
+									</a>
+								</h4>
+								<p>
+									At vero eos et accusam et justo duo dolores
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="teaser text-center">
+								<a class="teaser_icon size_small big border_icon round" href="#">
+									<i class="fa fa-star-o highlight"></i>
+								</a>
+								<h4 class="text-uppercase">
+									<a href="#">Fulfilling
+										<br>
+										<strong class="weight-black">Potential</strong>
+									</a>
+								</h4>
+								<p>
+									Stet clita kasd gubergren, nosea takimata sanctus est
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="teaser text-center">
+								<a class="teaser_icon size_small big border_icon round" href="#">
+									<i class="fa fa-scissors highlight"></i>
+								</a>
+								<h4 class="text-uppercase">
+									<a href="#">Making
+										<br>
+										<strong class="weight-black">Changes</strong>
+									</a>
+								</h4>
+								<p>
+									Lorem ipsum dolor sit amet consetetur sadipscing
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="teaser text-center">
+								<a class="teaser_icon size_small big border_icon round" href="#">
+									<i class="fa fa-codepen highlight"></i>
+								</a>
+								<h4 class="text-uppercase">
+									<a href="#">Finding
+										<br>
+										<strong class="weight-black">Balance</strong>
+									</a>
+								</h4>
+								<p>
+									Elitr, sed diam nonumy eirmod tempor invidunt
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ds section_padding_150 coaching_courses image_bg muted_image_bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header">FEATURED 
+								<br>
+								<strong class="weight-black">Videos</strong>
+							</h2>
+							<div class="owl-carousel offset-nav text-left topmargin_60" data-nav="true" style="width: 1500px;">
+								<article class="vertical-item content-padding ls">
+									<div class="item-media">
+										<iframe width="400" height="315" src="https://www.youtube.com/embed/nq5sTRbieJ8?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									<div class="item-content">
+										<h5 class="entry-title">
+											<a href="#"><strong>The "Punch List"</strong></a>
+										</h5>
+										<p style="font-size: 15px;">No, it's not a Boxers resume!</p>
+											
+									    Learn what it is and what a key roll it plays in your flip project</a>
+										
+											
+										<div>
+											<div class="media-left media-middle">
+											</div>
+										<div class="lato lightgrey weight-black"></div>
+									</div>
+								</article>
+
+								<article class="vertical-item content-padding ls">
+									<div class="item-media">
+											<iframe width="400" height="315" src="https://www.youtube.com/embed/WdbFAYy9syQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											
+										<!-- <iframe width="400" height="315" src="https://www.youtube.com/embed/j3LUqsTyO8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+									</div>
+									<div class="item-content">
+										<h4 class="entry-title">
+											<!-- <a href="#"><strong>Headquarters in Downtown Phoenix</strong></a> -->
+											<a href="#"><strong>Welcome To the Flippin Reality Show & must watch No BS Disclaimer</strong></a>
+										</h4>
+										<div>
+											<div class="media-left media-middle">
+												<div class="fontsize_14 round with_background text-center icon">
+													<i class="fa fa-user black"></i>
+												</div>
+											</div>
+				
+										</div>
+									</div>
+									<div class="item-footer">
+
+									</div>
+								</article>
+
+								<!-- <article class="vertical-item content-padding ls">
+									<div class="item-media">
+											<iframe width="400" height="315" src="https://www.youtube.com/embed/WdbFAYy9syQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									<div class="item-content">
+										<h4 class="entry-title">
+											<a href="#">Welcome To the Flippin Reality Show & must watch No BS Disclaimer</a>
+										</h4>
+										<div>
+											<div class="media-left media-middle">
+												<div class="fontsize_14 round with_background text-center icon">
+													<i class="fa fa-user black"></i>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+								</article>
+
+								<article class="vertical-item content-padding ls">
+									<div class="item-media">
+											<iframe width="400" height="300" src="https://www.youtube.com/embed/d30G1W9f0NM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									<div class="item-content">
+										<h4 class="entry-title">
+											<a href="#"><strong>9-Plex turned into Short Term Rental Heaven by ASU</strong></a>
+										</h4>
+										<div>
+											<div class="media-left media-middle">
+												<div class="fontsize_14 round with_background text-center icon">
+													<i class="fa fa-user black"></i>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+								</article> -->
+
+			
+
+		
+
+
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- <section class="ls section_padding_top_75 section_padding_bottom_150 table_section table_section_md columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h2 class="section_header">Stories
+								<br>
+								<strong class="big">of Success</strong>
+							</h2>
+							<p class="fontsize_28 highlight thin topmargin_50">Mary W. Johnson’s story:</p>
+							<blockquote class="no-border">
+								At vero eos et accusam et justo duo dolores et ea rebum lorem ipsum dolor sit amet consetetur sadipscing elitr, seed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erated diam voluptua. At vero eos et accusam justo duo dolores et
+								ea rebum.
+							</blockquote>
+							<a href="#" class="theme_button inverse topmargin_20">More stories</a>
+						</div>
+						<div class="col-md-6 bottommargin_0">
+							<div id="container1" class="twentytwenty-container">
+								<!-- The after image is first -->
+								<!-- <img src="images/after.jpg" alt="" /> -->
+								<!-- The before image is last -->
+								<!-- <img src="images/before.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+<!-- 
+			<section class="ls ms section_padding_top_120 section_padding_bottom_100 parallax page_testimonials">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 text-center">
+							<div class="owl-carousel" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-dots="true">
+								<blockquote class="blockquote-item">
+									<div class="item-meta">
+										<img src="images/faces/01.jpg" alt="">
+										<h5 class="small-text">Christopher M. Jiles, Businessman</h5>
+									</div>
+									<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+								</blockquote>
+								<blockquote class="blockquote-item">
+									<div class="item-meta">
+										<img src="images/faces/02.jpg" alt="">
+										<h5 class="small-text">David S. Wells, CEO</h5>
+									</div>
+									<p>Tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est ipsum dolor sit amet.</p>
+								</blockquote>
+								<blockquote class="blockquote-item">
+									<div class="item-meta">
+										<img src="images/faces/03.jpg" alt="">
+										<h5 class="small-text">Elizabeth M. Lloyd, Lawyer</h5>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum.</p>
+								</blockquote>
+
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<section class="ls ms section_padding_150 section_subscribe parallax">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 text-center">
+									<h2 class="section_header">
+										Become a E-mail Subscriber!
+									</h2>
+									<p>
+										Enter your Name and Email to get my eBook for free! Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+									</p>
+									<div class="row columns_padding_5 topmargin_40">
+										<div class="col-sm-6">
+											<div class="subscribe-form-name">
+												<label for="name" class="sr-only">Full Name
+													<span class="required">*</span>
+												</label>
+												<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control text-center" placeholder="Full Name">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="subscribe-form-email">
+												<label for="email" class="sr-only">Email address
+													<span class="required">*</span>
+												</label>
+												<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control text-center" placeholder="Email Address">
+											</div>
+										</div>
+										<div class="col-sm-12">
+											<div class="subscribe-form-submit topmargin_30">
+												<button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button color1">See Them</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+			<footer class="page_footer ds section_padding_110 columns_padding_25">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_text">
+								<!-- <a href="./" class="logo bottommargin_20">
+									<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+										<path class="logo-svg" d="M85.938,42.272A28.53,28.53,0,0,0,80,60c0,14.752,11.876,30,30.186,30S140,74.565,140,60.122,128.99,30,110.309,30C97.072,30,94.1,35.949,94.1,38.8s2.845,7.066,9.4,7.066h8.041c7.794,0,14.1,5.579,14.1,14.256S118.6,74.131,111.3,74.131h-9.031a4.223,4.223,0,0,1-4.454-4.587c0-3.1,2.722-3.967,4.7-3.967h8.413c2.165,0,6.185-1.3,6.185-5.579s-3.525-5.578-5.814-5.578h-8.536c-2.722,0-8.784-1.178-12.248-4.463A17.864,17.864,0,0,1,85.938,42.272Z"
+														transform="translate(-80 -30)" />
+									</svg>
+									<!-- <img src='images/logo.png' alt=""> -->
+									<!-- <span class="logo_text">Flippin Reality Show</span> -->
+								<!-- </a> -->
+								<h5 class="text-light">Flippin Reality Show</h5>
+								<div class="media thin-media">
+									<div class="media-left fontsize_16">
+										<i class="fa fa-map-marker"></i>
+									</div>
+									<div class="media-body">
+										Phoenix Arizona
+									</div>
+								</div>
+								<div class="media thin-media">
+									<div class="media-left fontsize_16">
+										<i class="fa fa-phone"></i>
+									</div>
+									<div class="media-body">
+								
+									</div>
+								</div>
+								<div class="media thin-media">
+									<div class="media-left fontsize_16">
+										<i class="fa fa-pencil"></i>
+									</div>
+									<div class="media-body darklinks">
+										<a href="#">paul@flippinrealityshow.com</a>
+									</div>
+								</div>
+								<div class="topmargin_25">
+									<a href="#" class="social-icon color-bg-icon rounded-icon soc-facebook"></a>
+									<a href="#" class="social-icon color-bg-icon rounded-icon soc-twitter"></a>
+									<a href="#" class="social-icon color-bg-icon rounded-icon soc-google"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_recent_news">
+								<h3 class="widget-title">Latest News</h3>
+								<ul class="greylinks">
+									<li>
+										<a href="#">Sit amet consetetur sadipscing tempor invidunt dolore.</a>
+										<time datetime="2015-11-08T15:05:23+00:00" class="entry-date small-text highlight">November 1, 2016</time>
+									</li>
+									<li>
+										<a href="#">At vero eos eit accusam et justo clita kasd.</a>
+										<time datetime="2015-11-08T15:05:23+00:00" class="entry-date small-text highlight">November 1, 2016</time>
+									</li>
+									<li>
+										<a href="#">At vero eos eit accusam et justo clita kasd.</a>
+										<time datetime="2015-11-08T15:05:23+00:00" class="entry-date small-text highlight">November 1, 2016</time>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_mailchimp">
+
+								<h3 class="widget-title">Newsletter</h3>
+
+								<p>Subscribe to our latest news to be updated, we promise not to spam!</p>
+
+								<form class="signup form-inline" action="./" method="get">
+									<div class="form-group">
+										<input name="email" type="email" class="mailchimp_email form-control" placeholder="Email address">
+									</div>
+									<button type="submit" class="theme_button">
+										<span class="sr-only">Send</span>
+										<i class="fa fa-pencil"></i>
+									</button>
+									<div class="response"></div>
+								</form>
+
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_gallery">
+								<h3 class="widget-title">Gallery</h3>
+								<ul id="gallery">
+									<li class="vertical-item">
+										<div class="item-media">
+											<img src="images/gallery/01.jpg" alt="">
+											<div class="media-links">
+												<a class="abs-link prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/01.jpg"></a>
+											</div>
+										</div>
+									</li>
+									<li class="vertical-item">
+										<div class="item-media">
+											<img src="images/gallery/02.jpg" alt="">
+											<div class="media-links">
+												<a class="abs-link prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/02.jpg"></a>
+											</div>
+										</div>
+									</li>
+									<li class="vertical-item">
+										<div class="item-media">
+											<img src="images/gallery/03.jpg" alt="">
+											<div class="media-links">
+												<a class="abs-link prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/03.jpg"></a>
+											</div>
+										</div>
+									</li>
+									<li class="vertical-item">
+										<div class="item-media">
+											<img src="images/gallery/04.jpg" alt="">
+											<div class="media-links">
+												<a class="abs-link prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/04.jpg"></a>
+											</div>
+										</div>
+									</li>
+									<li class="vertical-item">
+										<div class="item-media">
+											<img src="images/gallery/05.jpg" alt="">
+											<div class="media-links">
+												<a class="abs-link prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/05.jpg"></a>
+											</div>
+										</div>
+									</li>
+									<li class="vertical-item">
+										<div class="item-media">
+											<img src="images/gallery/06.jpg" alt="">
+											<div class="media-links">
+												<a class="abs-link prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/06.jpg"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<section class="page_copyright ls section_padding_40">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="lato small-text">&copy; copyright 2019 all rights reserved; Website created by Allen Young</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+    <script src="js/onclick.js"></script>
+	<!-- <script src="js/jquery.min.js"></script> -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/pixmodal.js"></script>
+</body>
+
+</html>
